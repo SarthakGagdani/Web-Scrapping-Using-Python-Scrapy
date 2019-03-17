@@ -5,9 +5,15 @@ Scraped important data from all links: https://www.kupujemprodajem.com/238122-1-
 {tseller} can be tseller or tbuyer
 {rpositive} can be rpositive or rnegative
 
+# Requirements
+
+Scrapy-pip install scrapy
+
 Note: all combinations of tseller / tbuyer, rpositive / rnegative are visited.
 
 The spider.py file is present in scrap/spiders/
+# Run
+Open command prompt in the spiders folder and type >(scrapy crawl spider_name)
 
 # Data scraped is following:
 
@@ -23,7 +29,7 @@ Database fields:
 8.	date - date of comment left, in format shown in picture ( Example. 2017-06-16 )
 9.	positive - 1 or 0 depending if its positive or negative
 10.	negative - 1 or 0 depending if its positive or negative
-11.	buyer - 1 or 0 depending if reviewer is buyer or a seller
+11.	buyer - 1 or 0 depending if reviewer is buyer or a sell
 12.	seller - 1 or 0 depending if reviewer is a buyer or a seller
 13.	review_num - coresponds to review_num mentioned above. Review count for that user.
 
