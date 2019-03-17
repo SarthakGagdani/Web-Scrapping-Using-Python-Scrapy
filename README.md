@@ -6,7 +6,8 @@ Scraped important data from all links: https://www.kupujemprodajem.com/238122-1-
 {rpositive} can be rpositive or rnegative
 
 Note: all combinations of tseller / tbuyer, rpositive / rnegative are visited.
-The spider.py file is present in scrapy>spider>.
+
+The spider.py file is present in scrap/spiders/
 
 # Data scraped is following:
 
