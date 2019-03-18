@@ -12,14 +12,17 @@ Scrapy-pip install scrapy
 Note: all combinations of tseller / tbuyer, rpositive / rnegative are visited.
 
 The spider.py file is present in scrap/spiders/
+
 # Run
 Open command prompt in the spiders folder and type >(scrapy crawl spider_name)
 
 # Data scraped is following:
 
 Database fields:
-1.	review_id - review_id consists of user_id + dot + review_num. Examples: 93117.1, 93117.2, 93117.3
-	- review_num is total count of reviews for that user. It should be incremented with each review. But restarted to 1 when new user page is visited.
+
+1.review_id - review_id consists of user_id + dot + review_num. Examples: 93117.1, 93117.2, 93117.3
+review_num is total count of reviews for that user. It should be incremented with each review. But restarted to 1 when new user page is visited.
+
 2.	user_id - number from link
 3.	page - pagination page on which review is
 4.	reviewed - username that coresponds to user_id
